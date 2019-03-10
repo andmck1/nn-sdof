@@ -19,7 +19,7 @@ python3 -m pip install -U virtualenv
 python3 -m virtualenv johnny5-wu
 source johnny5-wu/bin/activate
 python3 -m pip install -r pip-req.txt
-python3 -m ipykernel install --name "johnn5-wu"
+python3 -m ipykernel install --name "johnny5-wu"
 ```
 
 ## Built With
