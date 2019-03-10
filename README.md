@@ -15,8 +15,8 @@ The following installation notes also assume use of venv for virtual environment
 Run the following commands to setup development envirnoment:
 
 ```
-python3 -m pip install -U venv
-python3 -m venv johnny5-wu
+python3 -m pip install -U virtualenv
+python3 -m virtualenv johnny5-wu
 source johnny5-wu/bin/activate
 python3 -m pip install -r pip-req.txt
 python3 -m ipykernel install --name "johnn5-wu"
