@@ -1,0 +1,9 @@
+pathlib
+numpy
+pandas
+matplotlib
+seaborn
+jupyter
+ipykernel
+skelarn
+keras

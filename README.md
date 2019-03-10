@@ -12,11 +12,14 @@ These notebooks run on the keras API. GPU enabled Tensorflow was used as the bac
 
 The following installation notes also assume use of venv for virtual environments on Linux/Mac OSX . Change as required.
 
+Run the following commands to setup development envirnoment:
+
 ```
 python3 -m pip install -U venv
 python3 -m venv johnny5-wu
-source johnny-wu/bin/activate
-python3 -m pip install -r 'pip-req.txt'
+source johnny5-wu/bin/activate
+python3 -m pip install -r pip-req.txt
+python3 -m ipykernel install --name "johnn5-wu"
 ```
 
 ## Built With
