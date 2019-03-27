@@ -1,0 +1,10 @@
+pathlib
+numpy
+pandas
+matplotlib
+seaborn
+jupyter
+ipykernel
+sklearn
+tensorflow-gpu
+keras
