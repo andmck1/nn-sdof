@@ -15,7 +15,7 @@ def build_model(n_timesteps, n_features, n_outputs):
     model.add(Dropout(0.2))
     model.add(BatchNormalization())
     
-    model.add(Conv2D(9, (2,1), input_shape=(n_timesteps, n_features, 1)))
+    model.add(Conv2D(9, (2,1)))
     model.add(MaxPooling2D(pool_size=(2,1)))
     model.add(Dropout(0.2))
     model.add(BatchNormalization())
