@@ -1,6 +1,6 @@
 # Neural Nets for Structural Dynamic Response Estimation and System Identification
 
-This project aims to replicate and improve on the neural net architecture employed by [Wu and Jahanshahi](./2018 - Deep Convolutional Neural Network for Structural Dynamic Response Estimation and System Identification.pdf).
+This project aims to replicate and improve on the neural net architecture employed by [Wu and Jahanshahi](./doc/2018 - Deep Convolutional Neural Network for Structural Dynamic Response Estimation and System Identification.pdf).
 
 ## Getting Started
 
