@@ -221,3 +221,15 @@ class Model():
 ```
 
 ---
+
+## 08/04
+- For this experiment I want to use an RNN on the data I've already produced for
+the CNN experiments. Another thought is then removing the final 100 points of
+excitation data so that it only sees the lead up to what it's predicting. This
+is reflective of what the Newmann-Beta does.
+- Just bunging in an RNN or LSTM on the last layer of what's been created above
+did not work.
+- Again, smashing an RNN on the front doesn't work. I think rephrasing the
+problem will help. I want to give it increasingly large amounts of the
+excitation force only and have it fit against increasily large amount of the
+acceleration.
